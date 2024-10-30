@@ -1,7 +1,5 @@
 import { Component ,Input} from '@angular/core';
-import { UserComponent } from '../user/user.component';
-import { DUMMY_USERS } from '../user/dummy-users';
-import { EventEmitter } from '@angular/core';
+
 @Component({
   selector: 'app-tasks',
   standalone: true,
@@ -11,5 +9,6 @@ import { EventEmitter } from '@angular/core';
 })
 
 export class TasksComponent {
+  //nhan tham so name duoc truyen tu app.component 
   @Input() name!:string;
 }
